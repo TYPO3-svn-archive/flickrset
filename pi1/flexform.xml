@@ -1,0 +1,157 @@
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:flickrset/pi1/locallang.xml:options</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <fotoset>
+                        <TCEforms>
+                            <label>LLL:EXT:flickrset/pi1/locallang.xml:fotoset</label>
+                            <config>
+                                <type>input</type>
+                            </config>
+                        </TCEforms>
+                    </fotoset>
+                    <fotosperpage>
+                        <TCEforms>
+                            <label>LLL:EXT:flickrset/pi1/locallang.xml:fotosperpage</label>
+                            <config>
+                                <type>input</type>
+                            </config>
+                        </TCEforms>
+                    </fotosperpage>
+                    <listviewdescription>
+                        <TCEforms>
+                            <label>LLL:EXT:flickrset/pi1/locallang.xml:listviewdescription</label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </listviewdescription>
+                    <templateFile>
+                        <TCEforms>
+                            <label>LLL:EXT:flickrset/pi1/locallang.xml:templateFile</label>
+                            <config>
+                                <type>input</type>
+                            </config>
+                        </TCEforms>
+                    </templateFile>
+                    <thumbnailstyle>
+                        <TCEforms>
+                            <label>LLL:EXT:flickrset/pi1/locallang.xml:thumbnailstyle</label>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:thumbnailstylesize_s</numIndex>
+                                        <numIndex index="1">_s</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:thumbnailstylesize_t</numIndex>
+                                        <numIndex index="1">_t</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:thumbnailstylesize_m</numIndex>
+                                        <numIndex index="1">_m</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:thumbnailstylesize_def</numIndex>
+                                        <numIndex index="1">def</numIndex>
+                                    </numIndex>
+                                </items>
+                                <default>_t</default>
+                                <maxitems>1</maxitems>
+                            </config>
+                        </TCEforms>
+                    </thumbnailstyle>
+                    <viewmode>
+                        <TCEforms>
+                            <label>LLL:EXT:flickrset/pi1/locallang.xml:selectviewmode</label>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:viewmodelist</numIndex>
+                                        <numIndex index="1">list</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:viewmodesingle</numIndex>
+                                        <numIndex index="1">single</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:viewmodeset</numIndex>
+                                        <numIndex index="1">setview</numIndex>
+                                    </numIndex>
+                                </items>
+                                <default>list</default>
+                                <maxitems>1</maxitems>
+                            </config>
+                        </TCEforms>
+                    </viewmode>
+                    <singlefotoid>
+                        <TCEforms>
+                            <label>LLL:EXT:flickrset/pi1/locallang.xml:singlefotoid</label>
+                            <config>
+                                <type>input</type>
+                            </config>
+                        </TCEforms>
+                    </singlefotoid>
+                    <singlepicturestyle>
+                        <TCEforms>
+                            <label>LLL:EXT:flickrset/pi1/locallang.xml:photostyle</label>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:thumbnailstylesize_s</numIndex>
+                                        <numIndex index="1">_s</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:thumbnailstylesize_t</numIndex>
+                                        <numIndex index="1">_t</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:thumbnailstylesize_m</numIndex>
+                                        <numIndex index="1">_m</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:thumbnailstylesize_def</numIndex>
+                                        <numIndex index="1">def</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">LLL:EXT:flickrset/pi1/locallang.xml:thumbnailstylesize_o</numIndex>
+                                        <numIndex index="1">_o</numIndex>
+                                    </numIndex>
+                                </items>
+                                <default>_m</default>
+                                <maxitems>1</maxitems>
+                            </config>
+                        </TCEforms>
+                    </singlepicturestyle>
+                  	<singlepageid>
+                        <TCEforms>
+                            <label>LLL:EXT:flickrset/pi1/locallang.xml:singlepageid</label>
+                            <config>
+                                <type>input</type>
+                            </config>
+                        </TCEforms>
+                    </singlepageid>
+                  	<listpageid>
+                        <TCEforms>
+                            <label>LLL:EXT:flickrset/pi1/locallang.xml:listpageid</label>
+                            <config>
+                                <type>input</type>
+                            </config>
+                        </TCEforms>
+                    </listpageid>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

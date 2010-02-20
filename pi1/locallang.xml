@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_flickrset_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="forward">forward</label>
+			<label index="back">back</label>
+			<label index="options">Options</label>
+			<label index="fotoset">Photoset</label>
+			<label index="listviewdescription">Description in list view</label>
+			<label index="templateFile">Template File</label>
+			<label index="thumbnailstyle">Type of thumbnail</label>
+			<label index="photostyle">Type of photo</label>
+			<label index="fotosperpage">Photos per page</label>
+			<label index="thumbnailstylesize_s">Square</label>
+			<label index="thumbnailstylesize_t">Thumbnail</label>
+			<label index="thumbnailstylesize_m">Small</label>
+			<label index="thumbnailstylesize_def">Medium</label>
+			<label index="thumbnailstylesize_o">Original </label>
+			<label index="error1">Photoset or photo not found</label>
+			<label index="error100">Invalid API Key</label>
+			<label index="error105">Service currently unavailable</label>
+			<label index="selectviewmode">Select view mode</label>
+			<label index="viewmodelist">List</label>
+			<label index="viewmodesingle">Single</label>
+			<label index="viewmodeset">Set</label>
+			<label index="singlefotoid">Single photo id</label>
+			<label index="singlepageid">ID for single view</label>
+			<label index="listpageid">ID for list view</label>
+			<label index="singleviewtext">show single foto</label>
+			<label index="listviewtext">back to list view</label>
+			<label index="previousphoto">previous photo</label>
+			<label index="nextphoto">next photo</label>
+			<label index="wrapset">Set Wrap</label>
+		</languageKey>
+	</data>
+</T3locallang>

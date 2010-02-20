@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>flickr Set Template</title>
+<!-- ###HEADER_PARTS### begin -->
+<link rel="stylesheet" type="text/css" href="###SITE_REL_PATH###res/flickrset.css" />
+<script type="text/javascript" src="###SITE_REL_PATH###res/js/jquery.js"></script>
+<script type="text/javascript" src="###SITE_REL_PATH###res/js/jquery.shadow.js"></script>
+<script type="text/javascript" src="###SITE_REL_PATH###res/js/jquery.ifixpng.js"></script>
+<script type="text/javascript" src="###SITE_REL_PATH###res/js/jquery.fancyzoom.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+   $.fn.fancyzoom.defaultsOptions.imgDir='###SITE_REL_PATH###res/js/ressources/';
+   $("a.fancyzoom").fancyzoom({
+	showoverlay: true,
+	overlay: 0.4
+});
+});
+
+</script>
+<!-- ###HEADER_PARTS### end -->
+</head>
+
+<body>
+	<!-- ###SETVIEW### begin -->
+	<h3>###SETTITLE### (###PICTUREAMOUNT###)</h3>
+	<p>###DESCRIPTION###</p>
+	<!-- ###SETVIEW### begin -->
+	
+	<!-- ###SETLIST### begin -->
+	<h3><a href="###SETLINK###">###SETTITLE### (###PICTUREAMOUNT###)</a></h3>
+	<p>###DESCRIPTION###</p>
+	<p><a href="###SETLINK###"><img src="###IMGSRC###" alt="###SETTITLE###" /></a></p>
+	<hr />
+	<!-- ###SETLIST### begin -->
+	
+	<!-- ###LISTVIEW### begin-->
+	<div class="tx-flickrset-pi1-list-image">
+	<h5><a name="###ANCHORNAME###">###IMGTITLE###</a></h5>
+	<a href="###IMGURL###" class="fancyzoom" ><img src="###IMGSRC###" alt="###IMGTITLE###" /></a>
+	<p>###DESCRIPTION###</p>
+	###LINKTOSINGLE###
+	</div>
+	<!-- ###LISTVIEW### end -->
+	
+	<!-- ###SINGLELINK### begin -->
+	<p class="tx-flickrset-pi1-single-image-link"><a href="###SINGLEVIEWLINK###">###SINGLEVIEWTEXT###</a></p>
+	<!-- ###SINGLELINK### end -->
+	
+	<!-- ###SINGLEVIEW### begin -->
+	###LINKTOLIST###
+	<h5>###IMGTITLE###</h5>
+	<img src="###IMGSRC###" alt="###IMGTITLE###" />
+	<p>###DESCRIPTION###</p>
+	###LINKTOPREVNEXT###
+	<!-- ###SINGLEVIEW### end -->
+	
+	<!-- ###LISTLINK### begin -->
+	<p><a href="###LISTVIEWLINK###">###LISTVIEWTEXT###</a></p>
+	<!-- ###LISTLINK### end -->
+	
+	<!-- ###SINGLELINKTOPREVIOUS### begin -->
+	<div class="tx-flickrset-pi1-previous"><a href="###PREVIOUSLINK###">###PREVIOUSLINKTEXT###</a></div>
+	<!-- ###SINGLELINKTOPREVIOUS### end -->
+	
+	<!-- ###SINGLELINKTONEXT### begin -->
+	<div class="tx-flickrset-pi1-next"><a href="###NEXTLINK###">###NEXTLINKTEXT###</a></div>
+	<!-- ###SINGLELINKTONEXT### end -->
+	
+	<!-- ###NAVIGATIONVIEW### begin -->
+	<div class="tx-flickrset-pi1-###NAVIGATIONCLASS###"><a href="###LINKTOPAGE###">###NAVIGATIONLABEL###</a></div>
+	<!-- ###NAVIGATIONVIEW### end -->
+	
+	<!--###PAGENAVIGATION### begin -->
+	<div class="tx-flickrset-pagenavigation">###PAGENAVIGATIONLIONKS###</div>
+	<!--###PAGENAVIGATION### end -->
+	
+	<!--###ERRORMESSAGE### begin -->
+	<div class="tx-flickrset-error">###ERROR###</div>
+	<!--###ERRORMESSAGE### end -->
+</body>
+</html>

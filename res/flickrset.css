@@ -1,0 +1,35 @@
+/*
+
+flickrset default CSS
+
+
+*/
+
+.tx-flickrset-pi1-list-image {
+	float: left;
+}
+
+.tx-flickrset-pagenavigation {
+	clear: both;
+}
+
+.tx-flickrset-pi1-forward {
+	float: right;
+}
+
+.tx-flickrset-pi1-back {
+	float: left;
+}
+
+.tx-flickrset-pi1-single-image-link {
+
+}
+
+.tx-flickrset-pi1-previous {
+	float: left;
+
+}
+.tx-flickrset-pi1-next {
+	float: right;
+}
+
